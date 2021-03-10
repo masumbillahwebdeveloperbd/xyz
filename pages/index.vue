@@ -4,7 +4,7 @@
       <div class="flex-center position-ref full-height">
         <div class="content mb-5">
           <div class="title text-light">
-          <h2>All Esential</h2>
+          <h2>All Esential Bd</h2>
             
            <h4>Coming Soon....</h4>
           </div>

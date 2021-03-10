@@ -39,7 +39,7 @@
 		methods:{
 			submit(){
 		
-					axios.post('http://www.allessentialbd.com/api/register',this.form)
+					this.$axios.$post('http://www.allessentialbd.com/api/register',this.form)
                      .then(res=>{
                      	console.log(res)
                      	this.$router.push("/dashboard")

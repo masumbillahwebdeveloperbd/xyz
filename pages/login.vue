@@ -34,7 +34,7 @@ export default {
   methods: {
     userLogin(){
       
-        axios.post('http://www.allessentialbd.com/api/login',this.login )
+        this.$axios.$post('http://www.allessentialbd.com/api/login',this.login )
         .then(res=>{
           console.log(res)
           this.$router.push("/dashboard")
